@@ -7,6 +7,15 @@ public class Fanxing {
         // ArrayList list = new ArrayList();
         // list.add("Hello");
         // String first = (String) list.get(0);
+
+        ArrayList<String> strList = new ArrayList<String>();
+        ArrayList<Float> floatList = new ArrayList<Float>();
+        ArrayList<Person> personList = new ArrayList<Person>();
+
+        strList.add("hello");
+        String s = strList.get(0);
+        strList.add(new Integer(123));
+        Integer n = strList.get(0);
         
     }
     public class StringArrayList {
@@ -52,4 +61,8 @@ public class Fanxing {
         }
     }
 
+}
+
+public class ArrayList<T> implements List<T> {
+    
 }
